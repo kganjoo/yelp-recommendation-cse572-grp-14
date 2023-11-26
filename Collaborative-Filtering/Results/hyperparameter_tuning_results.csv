@@ -1,0 +1,7 @@
+Model,Metric,Best Score,Best Parameters
+MF,RMSE,1.1190450967592944,"{'n_factors': 5, 'n_epochs': 30}"
+MF,MAE,0.8787544752825482,"{'n_factors': 5, 'n_epochs': 30}"
+SGD,RMSE,1.1165959820034805,"{'method': 'sgd', 'n_epochs': 40, 'reg': 0.15}"
+SGD,MAE,0.8745949885292484,"{'method': 'sgd', 'n_epochs': 50, 'reg': 0.02}"
+ALS,RMSE,1.114244571969457,"{'method': 'als', 'n_epochs': 10, 'reg_u': 10, 'reg_i': 5}"
+ALS,MAE,0.8774759811423504,"{'method': 'als', 'n_epochs': 50, 'reg_u': 10, 'reg_i': 5}"
